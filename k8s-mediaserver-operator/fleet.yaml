@@ -6,3 +6,10 @@ spec:
   repo: "https://github.com/kubealex/k8s-mediaserver-helm"
   paths:
   - k8s-mediaserver
+values:
+  general:
+    storage:
+      customVolume: true
+      volumes:
+        hostPath:
+          path: "F:\"
