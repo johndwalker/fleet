@@ -13,3 +13,5 @@ values:
       volumes:
         hostPath:
           path: "F:\"
+    jackett:
+      enabled: false
