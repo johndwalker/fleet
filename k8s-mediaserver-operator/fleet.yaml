@@ -8,10 +8,10 @@ spec:
   - k8s-mediaserver
 values:
   general:
+    jackett:
+      enabled: false
     storage:
       customVolume: true
       volumes:
         hostPath:
           path: "F:\"
-    jackett:
-      enabled: false
